@@ -14,7 +14,7 @@ io.on('connection', function(socket){
   });
 });
 
-var port = 6000;
+var port = 4012;
 http.listen(port, function(){
-  console.log('listening on *:port');
+  console.log('listening on *:' + port);
 });
